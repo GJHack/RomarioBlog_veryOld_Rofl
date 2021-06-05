@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap');
+body {
+	background-color: #24292e;
+	overflow: hidden;
+}
+small {
+	position: absolute;
+	font-family: "Mate SC";
+	color: #e0e0e1;
+	left: 5wh;
+	top: 95vh;
+}
+.textDiv {
+	font-family: "Open Sans Condensed";
+	filter: opacity(0);
+	transition: all 1s;
+}
+.topText {
+	position: absolute;
+	margin-top: -35%;
+	margin-left: 62%;
+	width: 35%;
+	height: 40%;
+}
+.mainP {
+	color: #e0e0e1;
+	text-shadow: 1px 1px 1px black;
+}
+.avatarClass {
+	margin-top: 10%;
+	margin-left: 35%;
+	overflow: hidden;
+	border-radius: 50%;
+	box-shadow: 2px 2px 1px black;
+	background-color: white;
+}
+.avatarClass img {
+	max-width: 200%;
+	max-height: 200%;
+	margin-left: 0;
+}
+.testP {
+	background-color: gray;
+}
