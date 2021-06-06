@@ -1,45 +1,83 @@
 @import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap');
 body {
+	margin: 0;
 	background-color: #24292e;
 	overflow: hidden;
+}
+header {
+	margin-top: -10%;
+  position: absolute;
+  background-color: #515559;
+  box-shadow: 0 2px 2px black;
+	display: flex;
+	width: 100%;
+}
+hr {
+	margin-top: 2%;
+	margin-right: 30%;
+	border-radius: 20px;
+	height: 3px;
 }
 small {
 	position: absolute;
 	font-family: "Mate SC";
 	color: #e0e0e1;
-	left: 5wh;
+  margin-left: 31%;
 	top: 95vh;
 }
-.textDiv {
-	font-family: "Open Sans Condensed";
-	filter: opacity(0);
-	transition: all 1s;
+h1 {
+	font-family: "Mate SC";
+	color: #e0e0e1;
+  margin-left: 2%;
+  letter-spacing: 0.3em;
 }
+a {
+  text-decoration: none;
+}
+ul {
+  padding-top: 1%;
+}
+li a img {
+  margin-right: 20%;
+}
+
 .topText {
 	position: absolute;
-	margin-top: -35%;
+	margin-top: -50vh;
 	margin-left: 62%;
 	width: 35%;
 	height: 40%;
 }
 .mainP {
+	margin-top: -1%;
+  margin-left: 2%;
+	margin-bottom: -3%;
 	color: #e0e0e1;
 	text-shadow: 1px 1px 1px black;
+  font-size: 90%;
 }
 .avatarClass {
 	margin-top: 10%;
 	margin-left: 35%;
 	overflow: hidden;
+  max-height: 40vh;
+  max-width: 40vh;
+  min-width: 10vh;
+  min-height: 10vh;
 	border-radius: 50%;
-	box-shadow: 2px 2px 1px black;
+  border: 3px solid rgba(255,255,255,.3);
 	background-color: white;
 }
 .avatarClass img {
-	max-width: 200%;
-	max-height: 200%;
+	width: 100%;
+	height: 150%;
 	margin-left: 0;
+  transition: all .3s;
 }
-.testP {
-	background-color: gray;
+.avatarClass img:hover {
+  transform: scale(2);
+}
+.menuli {
+ display: inline-block;
 }
